@@ -1,0 +1,31 @@
+{
+  "user": [
+    {
+      "name": "Akash Kumar",
+      "age": "22",
+      "address": "Delhi",
+      "department": "software department",
+      "salary": "800000",
+      "marry": "married",
+      "id": 1
+    },
+    {
+      "name": "ASUTOSH",
+      "age": "752",
+      "address": "ODISa",
+      "department": "software department",
+      "salary": "5000000000000000",
+      "marry": "married",
+      "id": 2
+    },
+    {
+      "name": "akash",
+      "age": "22",
+      "address": "delhi",
+      "department": "mechanical department",
+      "salary": "5522",
+      "marry": "",
+      "id": 3
+    }
+  ]
+}
