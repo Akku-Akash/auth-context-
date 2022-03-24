@@ -1,49 +1,19 @@
 {
-  "todo": [
+  "todos": [
     {
-      "title": "a",
-      "status": false,
-      "id": 1
-    },
-    {
-      "title": "a",
+      "title": "learning new concepts",
       "status": false,
       "id": 2
     },
     {
-      "title": "a",
+      "title": "learning new concepts",
       "status": false,
       "id": 3
     },
     {
-      "title": "aa",
+      "title": "learning new concepts",
       "status": false,
       "id": 4
-    },
-    {
-      "title": "s",
-      "status": false,
-      "id": 5
-    },
-    {
-      "title": "a",
-      "status": false,
-      "id": 6
-    },
-    {
-      "title": "ds",
-      "status": false,
-      "id": 7
-    },
-    {
-      "title": "a",
-      "status": false,
-      "id": 8
-    },
-    {
-      "title": "zs",
-      "status": false,
-      "id": 9
     }
   ]
 }

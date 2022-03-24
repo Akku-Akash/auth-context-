@@ -12,7 +12,7 @@ switch(type){
         // case SUB_COUNT:
         //     return {...store,count:store.count-payload}
         case ADD_TODO :
-            return {...store,todo : [...store.todo, payload]}
+            return {...store,todo : payload}
         default:
             return store
 }
