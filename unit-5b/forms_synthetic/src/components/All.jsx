@@ -8,7 +8,7 @@ export const All =({data})=>{
              <td>{data.department}</td>
              <td>{data.salary}</td>
              <td>{data.marry}</td>
-             
+
            </tr>
            </>
        )

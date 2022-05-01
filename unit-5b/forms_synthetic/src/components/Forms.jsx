@@ -77,6 +77,7 @@ export const Forms =() => {
         </tr>
         </thead>
         <tbody>
+            
             {/* {form.map((e)=>(<All data = {e} key ={e.id}/>))} */}
             {data.map((e)=>(<All data = {e} key = {e.id}/>))}
         </tbody>
