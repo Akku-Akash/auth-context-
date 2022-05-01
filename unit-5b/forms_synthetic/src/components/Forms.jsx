@@ -10,7 +10,8 @@ export const Forms =() => {
     address : "",
     department : "",
     salary :"",
-    marry :""
+    marry :"",
+    id : ""
     })
     
     useEffect(()=>{
@@ -30,15 +31,17 @@ export const Forms =() => {
         console.log(form)
      
 
-            axios.post("http://localhost:3001/user",form).then(()=>{
+            axios.post("http://localhost:8040/user",form).then(()=>{
                 alert("form created successfully")
+                console.log("sub")
+              
             })
         
 
     }  
 
     const getdata = ()=>{
-        axios.get("http://localhost:3001/user").then((res)=>{
+        axios.get("http://localhost:8040/user").then((res)=>{
             setData(res.data)
         })
     }
