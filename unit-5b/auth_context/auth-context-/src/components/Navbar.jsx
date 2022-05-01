@@ -6,7 +6,7 @@ export const Navbar = ()=>{
     const {user,isAuth, toggleAuth }= useContext(AuthContext)
 
     const loginUser = () =>{
-       
+       //checking
         if(user!=null){
            
              return toggleAuth();
