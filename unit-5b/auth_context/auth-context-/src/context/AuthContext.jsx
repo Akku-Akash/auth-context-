@@ -8,7 +8,9 @@ export const AuthContextProvider = ({children}) =>{
 
 
     const isAuth = (token) =>{
+       
         
+    //checking
         if(token){
             return setUser(token)
         } 
